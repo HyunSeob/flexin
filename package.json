@@ -1,0 +1,15 @@
+{
+  "name": "flexin",
+  "version": "0.0.0",
+  "description": "CSS Library based on Flexbox",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.6.1",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.2.0",
+    "gulp-sourcemaps": "^2.3.1",
+    "postcss-cssnext": "^2.9.0"
+  },
+  "dependencies": {}
+}

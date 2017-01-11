@@ -1,0 +1,66 @@
+.Row {
+  display: flex;
+	flex-direction: column;
+  padding: 0;
+	width: 100%
+}
+
+.Row.Row--top {
+  align-items: flex-start
+}
+
+.Row.Row--bottom {
+  align-items: flex-end
+}
+
+.Row.Row--center {
+  align-items: center
+}
+
+.Row.Row--stretch {
+  align-items: stretch
+}
+
+.Row.Row--baseline {
+  align-items: baseline
+}
+
+.Row > .Column {
+  display: block;
+  flex: 1;
+  margin-left: 0;
+  max-width: 100%;
+  width: 100%
+}
+
+.Row > .Column.Column--top {
+  align-self: flex-start
+}
+
+.Row > .Column.Column--bottom {
+  align-self: flex-end
+}
+
+.Row > .Column.Column--center {
+  -ms-grid-row-align: center;
+      align-self: center
+}
+
+.Row > .Column.Column--33 {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%
+}
+
+.Row > .Column.Column--50 {
+  flex: 0 0 50%;
+  max-width: 50%
+}
+
+@media (min-width: 768px) {
+
+  .Row {
+    flex-direction: row
+  }
+  }
+
+/*# sourceMappingURL=../map/_Grid.css.map */
